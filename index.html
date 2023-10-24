@@ -2,53 +2,63 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Site de Investimentos</title>
-    <style>
-        /* Estilos CSS podem ser adicionados aqui */
-    </style>
+    <title>Investimentos XYZ</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Investimentos XYZ</h1>
         <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+            <div class="container">
+                <h1>Investimentos XYZ</h1>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section id="destaque">
-        <h2>Invista com segurança</h2>
-        <p>Oferecemos as melhores oportunidades de investimento para o seu futuro financeiro.</p>
-        <a href="#">Saiba mais</a>
+    <section id="home" class="destaque">
+        <div class="container">
+            <h2>Invista com segurança</h2>
+            <p>Oferecemos as melhores oportunidades de investimento para o seu futuro financeiro.</p>
+            <a href="#sobre" class="btn-saiba-mais">Saiba mais</a>
+        </div>
     </section>
 
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Somos uma empresa de investimentos dedicada a ajudar nossos clientes a alcançarem seus objetivos financeiros.</p>
+    <section id="sobre" class="section-gray">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa de investimentos dedicada a ajudar nossos clientes a alcançarem seus objetivos financeiros.</p>
+        </div>
     </section>
 
     <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Investimento em ações</li>
-            <li>Fundos de investimento</li>
-            <li>Consultoria financeira</li>
-        </ul>
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Investimento em ações</li>
+                <li>Fundos de investimento</li>
+                <li>Consultoria financeira</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para obter mais informações.</p>
-        <p>Email: contato@investimentosxyz.com</p>
-        <p>Telefone: (11) 1234-5678</p>
+    <section id="contato" class="section-gray">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para obter mais informações.</p>
+            <p>Email: <a href="mailto:contato@investimentosxyz.com">contato@investimentosxyz.com</a></p>
+            <p>Telefone: (11) 1234-5678</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Investimentos XYZ. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2023 Investimentos XYZ. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
