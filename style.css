@@ -23,7 +23,7 @@ h1 {
 }
 
 main .intro {
-    background-image: url('investimentos.png');
+    background-image: url('img/investimentos.png');
     background-size: cover;
     background-position: center;
     color: #003300; /* Verde bem escuro */
