@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Lemon&display=swap');
 
-:root {
-    --cor-fundo: #DCD7C9;
-    --cor-titulo: #2C3930;
-    --cor-texto: #A27B5C;
-    --cor-botao: #1B2A1E; /* Cor verde escuro quase preto */
-}
-
 body {
-    background-color: var(--cor-fundo);
+    background-color: #DCD7C9; /* cor-fundo */
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    color: var(--cor-texto);
+    color: #A27B5C; /* cor-texto */
 }
 
 header {
@@ -20,13 +13,13 @@ header {
 }
 
 .nav-link {
-    color: var(--cor-titulo);
+    color: #2C3930; /* cor-titulo */
     font-weight: 600;
 }
 
 h1, h2 {
     font-family: 'Lemon', serif;
-    color: var(--cor-titulo);
+    color: #2C3930; /* cor-titulo */
 }
 
 .inicio-fundo {
@@ -40,11 +33,9 @@ h1, h2 {
     min-height: 400px; /* Altura mínima para garantir que a imagem seja visível */
 }
 
-}
-
 .botao-inicio {
-    background-color: var(--cor-botao);
-    color: 1B2A1E;
+    background-color: #1B2A1E; /* cor-botao - verde escuro quase preto */
+    color: white;
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -53,7 +44,7 @@ h1, h2 {
 }
 
 .formulario {
-    background-color: #DCD7C9;
+    background-color: #DCD7C9; /* cor-fundo */
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -61,7 +52,7 @@ h1, h2 {
 }
 
 .formulario button {
-    background-color: var(--cor-botao);
+    background-color: #1B2A1E; /* cor-botao - verde escuro quase preto */
     color: white;
     border: none;
     font-weight: bold;
@@ -75,6 +66,6 @@ footer {
     text-align: center;
     padding: 20px;
     font-style: italic;
-    background-color: #2C3930;
+    background-color: #2C3930; /* cor-titulo */
     color: white;
 }
