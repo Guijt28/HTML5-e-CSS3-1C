@@ -41,6 +41,10 @@ h1, h2 {
     width: 14em;
     height: 3em;
     font-weight: bold;
+    text-align: center; /* Garantir que o texto no botão fique centralizado */
+    display: inline-block; /* Faz o link se comportar como um botão */
+    line-height: 3em; /* Para garantir que o texto esteja verticalmente centralizado */
+    text-decoration: none; /* Remover sublinhado */
 }
 
 .formulario {
